@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "to_do_list",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.1",
     "expo": "~48.0.18",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-native": "0.71.8",
+    "react-native-bootsplash": "^4.7.1",
+    "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
